@@ -379,13 +379,12 @@ button.btn.submit-btn:hover {
 .footer {
     background-color: #d9e4ce;
     padding-bottom: 0;
-    padding-top: 30px;
+    padding-top: 20px;
 
 }
 .footer img {
     max-width: 300px;
     margin-bottom: 15px;
-    margin-top: 15px;
 }
 .footer p {
     font-size: 20px;
