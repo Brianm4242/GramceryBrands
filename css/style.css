@@ -1,0 +1,399 @@
+/* custom style-sheet */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-SemiBold.eot");
+    src: url("../fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-SemiBold.woff2") format("woff2"), url("../fonts/OpenSans-SemiBold.woff") format("woff"),
+        url("../fonts/OpenSans-SemiBold.ttf") format("truetype"), url("../fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.eot");
+    src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"),
+        url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg#OpenSans-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Albra Semi";
+    src: url("Albra-Semi.eot");
+    src: url("../fonts/Albra-Semi.eot?#iefix") format("embedded-opentype"), url("../fonts/Albra-Semi.woff2") format("woff2"), url("../fonts/Albra-Semi.woff") format("woff"), url("../fonts/Albra-Semi.ttf") format("truetype"),
+        url("../fonts/Albra-Semi.svg#Albra-Semi") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Open Sans";
+    color: #094a6e;
+}
+
+a,
+button {
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+img {
+    max-width: 100%;
+}
+a,
+a:hover {
+    text-decoration: none;
+    color: #094a6e;
+}
+p {
+    margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Albra Semi" !important;
+    font-weight: normal !important;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+input:focus,
+button:focus {
+    outline: none;
+}
+section {
+    position: relative;
+}
+.secondary-font {
+    font-family: "Albra Semi" !important;
+    font-weight: normal !important;
+}
+a.navbar-brand img {
+    height: 40px;
+}
+.header {
+    background-color: #d9e4ce;
+    padding: 15px 0;
+    transition: all ease 0.3s;
+    position: relative;
+}
+.main-nav {
+}
+.main-nav .navbar-nav .nav-item {
+    margin: 0 22px;
+}
+.main-nav .navbar-nav .nav-item .nav-link {
+    color: #094a6e;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 4px 0px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background: transparent;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link:hover::after {
+    transition: width 0.3s ease, background-color 0.5s ease, left 0.3s ease;
+}
+.main-nav .navbar-nav .nav-item .nav-link:hover:after,
+.main-nav .navbar-nav .nav-item .nav-link:focus:after,
+.main-nav .navbar-nav .nav-item .nav-link:active:after,
+.main-nav .navbar-nav .nav-item .nav-link.active:after {
+    width: 100%;
+    left: 0;
+    background: #094a6e;
+}
+.container {
+    max-width: 1200px;
+}
+.main-banner {
+    background-image: url(../images/Forge-Desktop-Hero-01.png);
+    background-color: #d9e4ce;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main-banner-inner {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.main-banner-inner h1 {
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 25px;
+}
+.main-banner-inner p {
+    font-size: 26px;
+}
+.heading-box h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.heading-box p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.what-we-do-inner {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 370px;
+}
+.what-we-do-inner > img.do-main {
+    height: 190px;
+    margin-bottom: 5px;
+}
+.what-we-do-inner > h2 {
+    font-size: 44px;
+    margin-bottom: 25px;
+}
+.what-we-do-inner > img.do-forge {
+    height: 43px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.what-we-do-inner > p {
+    font-size: 18px;
+    line-height: 26px;
+}
+.what-we-do-inner > p > a {
+    display: inline-block;
+    text-decoration: underline;
+}
+.own-business {
+    background-color: #d9e4ce;
+}
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+.own-business-inner {
+}
+.own-business-inner .media img {
+    width: 60px;
+    margin-right: 15px;
+}
+.own-business-inner .media .media-body p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.own-business-inner {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 45px;
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.own-business .container {
+    max-width: 1090px;
+}
+.it-works {
+    background-color: #f2f7fa;
+}
+.it-works-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 880px;
+}
+.it-works-inner .media {
+    margin-bottom: 40px;
+}
+.it-works-inner .media img {
+    width: 70px;
+    margin-right: 40px;
+}
+.it-works-inner .media .media-body p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.it-works-footer {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.it-works-footer .media img {
+    width: 260px;
+    margin-left: 55px;
+}
+.it-works-footer .media .media-body p {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.paddingtopbottom {
+    padding: 50px 0;
+}
+.our-services-inner {
+    border: 4px solid #094a6e;
+    margin-top: 50px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.our-services-inner img {
+    height: 130px;
+    margin-bottom: 20px;
+}
+.our-services-inner h2 {
+    font-size: 28px;
+    min-height: 67px;
+    margin-bottom: 12px;
+}
+.our-services-inner p {
+    line-height: 22px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.authenticity {
+    background-color: #d9e4ce;
+}
+.authenticity .mb-6 {
+    margin-bottom: 30px;
+}
+.authenticity .heading-box p {
+    max-width: 850px;
+}
+.faq-inner {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.faq-item {
+    border-bottom: 2px solid #094a6e;
+    padding-bottom: 6px;
+    padding-top: 20px;
+}
+.faq-header {
+    position: relative;
+    font-size: 24px;
+    padding-left: 35px;
+    cursor: pointer;
+}
+.faq-header::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f067";
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-size: 18px;
+}
+.faq-header[aria-expanded="true"]::after {
+    content: "\f068";
+}
+.faq-body {
+    padding: 10px;
+    padding-left: 36px;
+    padding-bottom: 25px;
+}
+.get-started {
+    background-color: #d9e4ce;
+}
+.get-started-inner {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+.form-control {
+    border: 0;
+    border-radius: 31px;
+    height: 50px;
+    padding: 0px 25px;
+    font-size: 18px;
+    color: #094a6e;
+}
+textarea.form-control {
+    height: 200px;
+    padding-top: 15px;
+}
+.get-started .mb-3 {
+    margin-bottom: 20px !important;
+}
+.form-control::placeholder {
+    color: #094a6e;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #094a6e;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #094a6e;
+}
+button.btn.submit-btn {
+    background-color: #0d4d70;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 180px;
+    text-align: center;
+    padding: 5px 0;
+    border: 2px solid #0d4d70;
+}
+button.btn.submit-btn:hover {
+    background-color: transparent;
+    color: #0d4d70;
+}
+.footer {
+    background-color: #d9e4ce;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+.footer img {
+    max-width: 100px;
+    margin-bottom: 8px;
+}
+.footer p {
+    font-size: 24px;
+}
+.header.fixed {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+body.overflow {
+    overflow: hidden;
+}
