@@ -174,16 +174,19 @@
                         <!--  -->
 
                         <div class="get-started-inner">
-                            <form>
+                            <form action="POST" data-netlify="true">
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Name*" id="" required />
+                                    <input type="text" class="form-control" name="Name" placeholder="Name*" id="" required />
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="Email*" id="" required />
+                                    <input type="email" class="form-control" name="Email" placeholder="Email*" id="" required />
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" id="" rows="3" placeholder="Message"></textarea>
+                                    <textarea class="form-control" name="Message" id="" rows="3" placeholder="Message"></textarea>
                                 </div>
+                                <div class="field">
+                                    <div data-netlify-recaptcha="true"></div>
+                                </div>    
 
                                 <div class="text-center">
                                     <button type="submit" class="btn submit-btn">Submit</button>
