@@ -82,7 +82,7 @@ a.navbar-brand img {
 }
 .header {
     background-color: #d9e4ce;
-    padding: 15px 0;
+    padding: 4px 0;
     transition: all ease 0.3s;
     position: relative;
 }
@@ -378,15 +378,24 @@ button.btn.submit-btn:hover {
 }
 .footer {
     background-color: #d9e4ce;
-    padding-bottom: 15px;
+    padding-bottom: 0;
     padding-top: 30px;
+
 }
 .footer img {
-    max-width: 100px;
-    margin-bottom: 8px;
+    max-width: 300px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .footer p {
-    font-size: 24px;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 15px 0;
+    font-weight: 600;
+}
+.footer p svg {
+    width: 30px;
+    height: 30px;
 }
 .header.fixed {
     position: fixed;
