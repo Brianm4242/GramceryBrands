@@ -1,6 +1,6 @@
 layout: page
-title: "FORM"
-permalink: /FORM/
+title: "Project-Cost-Calculator"
+permalink: https://gramercybrands.co/project-cost-calculator/
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
