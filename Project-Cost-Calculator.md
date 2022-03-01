@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 layout: page
 title: "Project-Cost-Calculator"
 permalink: /project-cost-calculator/
