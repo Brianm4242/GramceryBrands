@@ -152,7 +152,7 @@ a.navbar-brand img {
 .heading-box p {
     font-size: 24px;
     margin-bottom: 20px;
-    max-width: 750px;
+    max-width: 690px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -377,10 +377,9 @@ button.btn.submit-btn:hover {
     color: #0d4d70;
 }
 .footer {
-    background-color: #d9e4ce;
-    padding-bottom: 0;
-    padding-top: 20px;
-
+    background-color: #f2f7fa;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .footer img {
     max-width: 300px;
@@ -388,9 +387,8 @@ button.btn.submit-btn:hover {
 }
 .footer p {
     font-size: 20px;
-    background-color: #fff;
-    padding: 15px 0;
-    font-weight: 600;
+    padding: 3px 0;
+    font-weight: 400;
 }
 .footer p svg {
     width: 30px;
@@ -404,4 +402,55 @@ button.btn.submit-btn:hover {
 }
 body.overflow {
     overflow: hidden;
+}
+a.cost-calculator span {
+    display: inline-block;
+    font-size: 24px;
+    border-bottom: 2px solid #094a6e;
+    position: relative;
+}
+a.cost-calculator img {
+    margin-left: 10px;
+    max-width: 38px;
+}
+a.cost-calculator:hover span{
+    border-bottom: 3px solid #094a6e;
+}
+a.cost-calculator {
+    display: inline-block;
+    margin-top: 15px;
+}
+.featured-in {
+    background-color: #f2f7fa;
+    margin-top: 50px;
+    padding: 25px 0 20px;
+}
+.featured-in p {
+    font-size: 20px;
+    color: #094a6e;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.featured-in img {
+    margin: 0 10px;
+}
+.calculator-section {
+    background-color: #f2f7fa;
+    padding: 50px 0;
+}
+.calculator-section a.cost-calculator span{
+  font-size: 26px;
+}
+.calculator-section a.cost-calculator {
+    margin-top: 25px;
+}
+.footer-inner h2 {
+    font-family: "Open Sans" !important;
+    font-weight: 700 !important;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.footer-inner a:hover{
+  text-decoration: underline;
 }
