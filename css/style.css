@@ -174,7 +174,7 @@ a.navbar-brand img {
     height: 43px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
 }
 .what-we-do-inner > p {
     font-size: 18px;
