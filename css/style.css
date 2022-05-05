@@ -376,6 +376,20 @@ button.btn.submit-btn:hover {
     background-color: transparent;
     color: #0d4d70;
 }
+.featured-in {
+    background-color: #f2f7fa;
+    margin-top: 50px;
+    padding: 25px 0 20px;
+}
+.featured-in p {
+    font-size: 20px;
+    color: #094a6e;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.featured-in img {
+    margin: 0 10px;
+}
 .footer {
     background-color: #d9e4ce;
     padding-bottom: 15px;
