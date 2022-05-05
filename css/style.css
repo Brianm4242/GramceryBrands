@@ -164,7 +164,7 @@ a.navbar-brand img {
 }
 .what-we-do-inner > img.do-main {
     height: 190px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 .what-we-do-inner > h2 {
     font-size: 44px;
