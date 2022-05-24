@@ -411,3 +411,27 @@ button.btn.submit-btn:hover {
 body.overflow {
     overflow: hidden;
 }
+
+.featured-in a {
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 20px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.featured-in a:hover {
+    opacity: .7;
+}
+
+.featured-in a img {
+    display: inline-block;
+    width: 40px;
+}
+
+.featured-in a span {
+    display: inline-block;
+    border-bottom: 2px solid #084A6D;
+    padding-bottom: 4px;
+}
